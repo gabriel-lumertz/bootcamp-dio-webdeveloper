@@ -8,9 +8,20 @@
     <!-- <script src="./arrays.js"></script> -->
     <!-- <script src="./for.js"></script> -->
     <!-- <script src="./date.js"></script> -->
-    <script src="./funcoes.js"></script>
+    <!-- <script src="./funcoes.js"></script> -->
+    <script src="./elementos.js"></script>
 </head>
-<body>
+<body onload="load()">
     <h1>Minha página</h1>
+    <button type="button" onclick="redirecionar()">Abrir Guia</button>
+    <button type="button" onclick="clicou()">OnClick</button>
+    <button type="button" onclick="agradecer()">InnerHTML</button>
+    <p id="agradecimento"></p>
+    <p id="mouseover" onmouseover="trocar(this)" onmouseout="voltar(this)">Mouse Over</p>
+    <select name="" id="" onchange="change(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 </body>
 </html>
